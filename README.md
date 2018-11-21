@@ -46,4 +46,12 @@ git merge upstream/develop
 git push
 ~~~~
 
+## How to relaunch a Docker container
+Here is how you relaunch your Spectre container if you used Docker to obtain a Spectre environment.
+~~~~
+# Make sure Docker is running. 
+# You can check if it's running by clicking the Docker icon from your menu bar. Towards the bottom of the menu it should read, "Docker is running."
+docker start NameOfYourDockerContainer
+docker exec -it NameOfYourDockerContainer /bin/bash -l
+~~~~
 
