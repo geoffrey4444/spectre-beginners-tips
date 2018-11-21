@@ -14,7 +14,7 @@ git checkout develop
 git merge upstream/develop
 git push
 ~~~~
-## How to relaunch a docker container
+## How to relaunch a Docker container
 Here is how you relaunch your Spectre container if you used Docker to obtain a Spectre environment.
 ~~~~
 # Make sure Docker is running. 
